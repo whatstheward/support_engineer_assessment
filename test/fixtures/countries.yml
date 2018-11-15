@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: 
+  capital: 
+  region: 
+  subregion: 
+  population: 
+  area: 9.99
+
+two:
+  name: 
+  capital: 
+  region: 
+  subregion: 
+  population: 
+  area: 9.99
