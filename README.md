@@ -12,11 +12,13 @@ This exercise includes three sections that will help us gain a better understand
 
 ## Table of Contents
 
-- [Part 1 - database design](#1-design-a-database-1-hour)
-- [Part 2 - sql hunt](#2-the-sql-hunt-15-hours)
-- [Part 3 - simple web app](#3-build-a-simple-web-app-3-to-8-hours)
+This is how the exercise is structured with an indication of how much of the total time you should spend on each part.
 
-### 1. Design a database (~1 hour)
+- [Part 1 - database design (10%)](#1-design-a-database)
+- [Part 2 - sql hunt (30%)](#2-the-sql-hunt)
+- [Part 3 - simple web app (60%)](#3-build-a-simple-web-app)
+
+### 1. Design a database
 
 SalesLoft is a sales engagement application, allowing its users to reach prospective customers faster and more effectively.
 
@@ -33,7 +35,7 @@ SalesLoft is a sales engagement application, allowing its users to reach prospec
 
 TODO: Based on this information, draw an Entity Relationship Diagram [ERD](https://www.lucidchart.com/pages/er-diagrams) representing the relationships between our data in the SalesLoft app. Please note down your design choices. Your ERD can be designed using any tool you prefer. https://www.draw.io/ is a free and useful tool. Paper and pencil and a picture of your ERD sketch works as well!  Please document any assumptions or outstanding questions you have.
 
-### 2. The SQL Hunt! (~1.5 hours)
+### 2. The SQL Hunt!
 
 As a support software engineer, you'll need to effectively navigate a SQL database, specifically PostgreSQL. In this exercise, you will have to fetch data according to the instructions.
 
@@ -63,7 +65,7 @@ We would like to see the queries along with the answers for the following questi
 
 Here you can find helpful documentations: [ActiveRecords queries](https://guides.rubyonrails.org/active_record_querying.html) [Postgresql](http://www.postgresqltutorial.com/postgresql-cheat-sheet/) 
 
-### 3. Build a simple web app (~3 to 5 hours)
+### 3. Build a simple web app
 
 In this last part you will submit a web application with two features:
 
