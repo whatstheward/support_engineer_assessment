@@ -1,4 +1,4 @@
-# Support Software Engineer (Junior Developer) offline exercise
+# Support Software Engineer offline exercise
 
 Hello #{insert awesome candidate name here}!
 
