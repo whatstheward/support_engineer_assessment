@@ -57,7 +57,7 @@ We would like to see the queries along with the answers for the following questi
 1. Find the country with the highest number of engineers.
 2. Find the three teams with the highest number of engineers and order them by the number of bugs, largest first.
 3. Find the oldest engineer with a repository written using functional programming. If needed, the winner is the one with the most functional programming repositories.
-4. Find the second least represented region within the teams.
+4. Find the second least represented region across all the teams.
 5. Find who published the book with the highest average rating.
 6. Find the capital of the country where the oldest person in the team that shipped the most features comes from.
 7. Find the inventor of the third most used programming language by the teams on the most populated floor.
