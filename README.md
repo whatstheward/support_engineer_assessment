@@ -55,6 +55,7 @@ Alternatively, you can import our database in another application of your choice
 We would like to see the queries along with the answers for the following questions:
 
 1. Find the country with the highest number of engineers.
+    ActiveRecord: Country.all.max_by {|country| country.engineers.length}
 2. Find the three teams with the highest number of engineers and order them by the number of bugs, largest first.
 3. Find the oldest engineer with a repository written using functional programming. If needed, the winner is the one with the most functional programming repositories.
 4. Find the second least represented region across all the teams.
