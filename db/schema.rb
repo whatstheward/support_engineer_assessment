@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2018_11_03_012847) do
   end
 
   create_table "bookshelves", force: :cascade do |t|
-    t.string "rating"
+    t.integer "rating"
     t.integer "times_read"
     t.bigint "engineer_id"
     t.bigint "book_id"

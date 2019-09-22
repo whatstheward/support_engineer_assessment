@@ -54,15 +54,40 @@ Alternatively, you can import our database in another application of your choice
 
 We would like to see the queries along with the answers for the following questions:
 
+**Class_methods written in appropriate models**
+
 1. Find the country with the highest number of engineers.
-    ActiveRecord: Country.all.max_by {|country| country.engineers.length}
+
+***Country.get_country_with_most_engineers === "French Southern and Antarctic Lands"***
+
 2. Find the three teams with the highest number of engineers and order them by the number of bugs, largest first.
+
+***Team.biggest_three_bugs === [#<Team id: 12, name: "DM", floor: 22, features_shipped: 95, current_bugs: 37, created_at: "2019-09-22 14:08:20", updated_at: "2019-09-22 14:08:20">, #<Team id: 14, name: "LFE", floor: 24, features_shipped: 54, current_bugs: 31, created_at: "2019-09-22 14:08:20", updated_at: "2019-09-22 14:08:20">, #<Team id: 17, name: "SES", floor: 23, features_shipped: 81, current_bugs: 22, created_at: "2019-09-22 14:08:20", updated_at: "2019-09-22 14:08:20">] ***
+
 3. Find the oldest engineer with a repository written using functional programming. If needed, the winner is the one with the most functional programming repositories.
+
+***Engineer.oldest_function_programming === #<Engineer id: 33, first_name: "Sacha", last_name: "Daugherty", age: 70, email: "Sacha.Daugherty@salesloft.com", country_id: 39, team_id: 4, created_at: "2019-09-22 14:08:24", updated_at: "2019-09-22 14:08:24">***
+
 4. Find the second least represented region across all the teams.
+
+***Team.second_least_represented_team_region === "Oceania***
+
 5. Find who published the book with the highest average rating.
+
+***Book.highest_rated.publisher === "Mainstream Publishing"***
+
 6. Find the capital of the country where the oldest person in the team that shipped the most features comes from.
+
+***Team.capital_for_oldest_person_prolific_team === "Monrovia"***
+
 7. Find the inventor of the third most used programming language by the teams on the most populated floor.
+
+***Team.inventor_third_most_popular_language_by_floor === "Joe Armstrong"***
+
 8. Find the book least read by the the engineers who develop in Ruby.
+
+*** ruby_engineers === Engineers.get_engineers_by_language(Ruby)
+    Engineer.book_least_read(ruby_engineers) === #<Book id: 19, title: "Many Waters", author: "Rosita Pfannerstill", publisher: "Harvill Press at Random House", genre: "Fantasy", created_at: "2019-09-22 14:08:20", updated_at: "2019-09-22 14:08:20">***
 
 Here you can find helpful documentations: [ActiveRecords queries](https://guides.rubyonrails.org/active_record_querying.html) [Postgresql](http://www.postgresqltutorial.com/postgresql-cheat-sheet/) 
 
